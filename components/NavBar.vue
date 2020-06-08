@@ -20,7 +20,8 @@ export default {}
     display: block;
     color: lightgrey;
 
-    &:hover {
+    &:hover,
+    &.nuxt-link-exact-active {
       color: black;
     }
   }
