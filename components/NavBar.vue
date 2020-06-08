@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <nuxt-link to="/"> Home (tests) </nuxt-link>
-    <nuxt-link to="/test"> New page </nuxt-link>
+    <nuxt-link to="/api-example"> asyncData() </nuxt-link>
   </div>
 </template>
 
