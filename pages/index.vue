@@ -1,21 +1,21 @@
 <template>
   <div class="container">
     <div>
-      Главная страница
+      <h1>Home (tests)</h1>
     </div>
   </div>
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
+// ссылки меню - в NavBar.vue
+
+// import MyComponent from '~/components/MyComponent.vue'
 
 export default {
   components: {
-    // Logo
+    // MyComponent
   }
 }
 </script>
 
-<style>
-
-</style>
+<style lang="scss" scoped></style>
