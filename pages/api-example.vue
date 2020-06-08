@@ -13,12 +13,20 @@
 <script>
 // api данные - https://reqres.in/api/products/
 
+import api from '~/servises/api.js'
+
 export default {
   async asyncData({ $axios, route, error }) {
     try {
-      const products = await $axios
-        .get('https://reqres.in/api/products/') // эмуляция ошибки: https://reqres2.in/api/products/
-        .then((r) => r.data.data)
+      // api запрос через сервис
+      const products = await api.getProducts()
+
+      console.log(products)
+
+      // api запрос прямо из компонента
+      // const products = await $axios
+      //   .get('https://reqres.in/api/products/') // эмуляция ошибки: https://reqres2.in/api/products/
+      //   .then((r) => r.data.data)
 
       return {
         products
