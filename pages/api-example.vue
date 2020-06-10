@@ -21,6 +21,7 @@ export default {
       // api запрос через сервис
       const products = await api.getProducts()
 
+      // eslint-disable-next-line no-console
       console.log(products)
 
       // api запрос прямо из компонента

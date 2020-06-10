@@ -2,6 +2,7 @@
   <div class="menu">
     <nuxt-link to="/"> Home (tests) </nuxt-link>
     <nuxt-link to="/api-example"> asyncData() </nuxt-link>
+    <nuxt-link to="/vuex-example"> Vuex Example </nuxt-link>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ export default {}
   a {
     display: block;
     color: lightgrey;
+    text-decoration: none;
 
     &:hover,
     &.nuxt-link-exact-active {
