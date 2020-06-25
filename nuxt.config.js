@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export default {
   mode: 'universal',
   /*
@@ -40,8 +41,16 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // '@nuxtjs/apollo'
   ],
+  // apollo: {
+  //   clientConfigs: {
+  //     default: {
+  //       httpEndpoint: 'http://pet-library.moonhighway.com/'
+  //     }
+  //   }
+  // },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
